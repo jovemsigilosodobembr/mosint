@@ -18,7 +18,7 @@ const frontendBaseURL = "https://intelx.io/"
 
 func Intelx(wg *sync.WaitGroup, email string) {
 	defer wg.Done()
-	key := GetAPIKey("Intelx")
+	key := GetAPIKey("0ccf7d4d-28bc-4dde-83b5-b02801a631d2")
 	if key == "" {
 		return
 	}
