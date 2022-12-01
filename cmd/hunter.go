@@ -65,7 +65,7 @@ type HunterStruct struct {
 
 func Hunter(wg *sync.WaitGroup, email string) {
 	defer wg.Done()
-	key := GetAPIKey("Hunter")
+	key := GetAPIKey("ff91e7e53d0ac705c99e755b398b80b9b17b75d5")
 	if key == "" {
 		return
 	}
