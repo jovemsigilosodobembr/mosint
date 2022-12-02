@@ -26,7 +26,7 @@ type PsbdmpStruct struct {
 
 func Psbdmp(wg *sync.WaitGroup, email string) {
 	defer wg.Done()
-	var key string = GetAPIKey("Psbdmp")
+	var key string = GetAPIKey("46cd6d6efe55841e17845f40d03641ca")
 	if key == "" {
 		return
 	}
